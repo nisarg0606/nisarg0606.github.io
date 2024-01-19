@@ -1,0 +1,17 @@
+- skill: Languages
+  description: C/C++, Java, Python, JavaScript, TypeScript, HTML/CSS, SQL, R
+
+- skill: Frameworks
+  description: React, Node.js, Express, Spring, Spring Boot, Hibernate, Bootstrap, Material UI, jQuery, Flask, Django
+
+- skill: Databases
+  description: MySQL, PostgreSQL, MongoDB, Oracle SQL, SQLite
+
+- skill: Tools
+  description: Git, GitHub, GitLab, IntelliJ IDEA, VS Code, PyCharm, Eclipse, Jupyter Notebook, Postman, Heroku, Docker, Kubernetes
+
+- skill: Cloud
+  description: AWS, Google Cloud Platform, IBM Cloud
+
+- skill: Operating Systems
+  description: Windows, Linux, macOS

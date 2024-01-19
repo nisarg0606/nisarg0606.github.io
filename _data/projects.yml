@@ -1,0 +1,41 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+- project: Advance Project Management
+  role: Project Manager and Backend Developer
+  duration: Jan, 2023 &mdash; March, 2023
+  # url: "#"
+  description: >-
+    Technologies: TypeScript, HTML/CSS, Node.js, Git, Unix Shell, VS Code
+    <ul class="resume-item-list">
+      <li>Conceptualized and developed a dynamic full-stack web application for university use, facilitating seamless communication between Admins, Faculties, and Students in project endeavors.</li>
+      <li>Revamped university workflows: Admins efficiently created 100+ student accounts, while Faculties expedited approvals and allocated students through an intuitive Kanban board interface, resulting in a 40% reduction in administrative time.</li>
+      <li>Implemented a robust authentication system with JWT and Passport.js, ensuring secure access to the application.</li>
+      <li>Designed a responsive UI with React and Material UI, enabling users to access the application on any device.</li>
+      <li>Orchestrated the development of a RESTful API with Node.js and Express, enabling seamless communication between the front-end and back-end.</li>
+      <li>Implemented a PostgreSQL database with Sequelize ORM, ensuring efficient data storage and retrieval.</li>
+      <li>Deployed the application on Heroku, enabling users to access the application from anywhere.</li>
+    </ul>
+
+- project: Feed the Hunger
+  role: Backend Developer
+  duration: April, 2022 &mdash; May, 2022
+  # url: "#"
+  description: >-
+    Technologies: Laravel, MySQL, Git, IntelliJ IDEA
+    <ul class="resume-item-list">
+      <li>Crafted a website for an NGO in Ahmedabad, Gujarat, resulting in a 30% reduction in food wastage, equating to approximately 500 kilograms of rescued food annually from events like weddings and birthdays.</li>
+      <li>Implemented a gallery section with 100+ images and a blogging platform, resulting in a 50% increase in user engagement for the NGO.</li>
+      <li>Optimized UX (User Experience) e.g. prioritized sound design, timing of food and cloths drops, and had to address many potential workarounds in the numerous ways of destroying the food dropper</li>
+    </ul>
+
+- project: AgriOracle
+  role: Backend Developer & Presentator
+  duration: June, 2021 &mdash; August, 2021
+  # url: "#"
+  description: >-
+    Technologies: Python, IBM Watson Studio and Chat-bot
+    <ul class="resume-item-list">
+      <li>Led the development of an AI-driven application, utilizing soil composition and weather data to achieve a 20% increase in crop yield and a 15% reduction in water usage for optimal crop selection.</li>
+      <li>Implemented season-specific crop yield projections and price forecasts, achieving an 18% increase in accurate yield predictions and a 25% improvement in price forecasting accuracy over a 12-month horizon.</li>
+    </ul>

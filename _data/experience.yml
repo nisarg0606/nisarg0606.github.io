@@ -1,0 +1,17 @@
+# Jobs
+- company: Capri Technosys
+  position: Junior Software Developer Intern
+  duration: May, 2021 &mdash; Jul, 2023
+  summary: I excelled as a Junior Software Developer Intern at Capri Technosys, specializing in ML-Ops with a focus on Java-based custom ML models. My strong communication skills, proficiency in API testing, and contributions to system improvement showcased my ability to address client needs effectively. <ul class="resume-item-list"><li>Collaborated closely with the team in ML-Ops, leveraging Java to develop a customized ML model for the client.</li><li>Applied strong communication skills to bridge the gap between the team and the client, effectively addressing their concerns and facilitating problem-solving.</li><li>Demonstrated proficiency in API testing and validation using Postman and Java, resulting in the identification and resolution of 15+ critical bugs and vulnerabilities.</li><li>This not only showcased technical expertise but also highlighted the ability to communicate complex technical issues to both the team and the client.</li><li>Revitalized the client’s product, achieving a noteworthy 40% improvement in system stability and security.</li><li>Additionally, I orchestrated the design and execution of a robust web scraping algorithm in Python, providing clients with the capability to effortlessly extract data from a wide range of websites. This initiative led to an impressive 80% boost in overall productivity, further demonstrating my ability to understand and address client needs effectively</li></ul>
+
+- company: Dhirubhai Ambani Institute of Technology (DAIICT)
+  position: Research Intern
+  duration:  Nov, 2022 &mdash; June, 2023
+  summary: As a Research Intern at DAIICT, I skillfully acquired and managed a 1.5 million-tweet dataset, applied advanced text preprocessing, BERT embeddings, and topic modeling for sentiment analysis on inflation, while actively contributing to team efforts and model finetuning. <ul><li>Orchestrated acquisition of a 1.5 million-tweet dataset using Twitter API and Selenium, optimizing storage in MongoDB with a tailored schema for efficient retrieval and analysis, showcasing proficiency in data collection and management.</li><li>Applied advanced text preprocessing to a comprehensive dataset, leveraged BERT embeddings to analyze nuanced public sentiment on inflation, and aligned methodologies with referenced NLP research, showcasing expertise in sophisticated language processing techniques.</li><li>Executed precise topic modeling with the BERTopic library, extracted inflation-related tweets from the extensive dataset, and improved sentiment analysis accuracy through meticulous manual annotation and strategic hyperparameter tuning.</li><li>Demonstrated strong teamwork, annotated 300 tweets, contributed to model finetuning, and offered nuanced insights on public expectations.</li></ul>
+
+
+# Communications Coordinator
+- company: Royal Technosoft Pvt. Ltd.
+  position: Tutor
+  duration:   July, 2021  &mdash; Sept, 2022
+  summary: Facilitated cross-cultural learning experiences for over 80+ students, providing comprehensive instruction in programming languages like C, C++, Java, and Python. Implemented effective teaching strategies, resulting in a notable increase in overall comprehension and proficiency.

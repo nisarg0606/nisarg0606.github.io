@@ -1,0 +1,64 @@
+# Site settings
+title: "Nisarg Shah"
+description: ""
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Nisarg Shah"
+# resume_title:                   "Tech Maverick & Innovator 🚀"
+resume_title:                   "Problem solver with a purpose✨🚀"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "nisargshahusa@gmail.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "930-333-2954"
+resume_contact_address:         "100 E Miller Dr, Apt 47, Bloomington, Indiana"
+
+resume_header_contact_info:     "<a href=\"https://maps.app.goo.gl/iuXRLBSw4WfnUYgm6\"> 🏠Home </a> &nbsp; <a href=\"tel:+19303332954\">☎️ Call me </a> &nbsp; <a href=\"mailto:nisargshahusa@gmail.com\">📧 Email to me </a>"
+display_header_contact_info:    "true"
+
+resume_header_intro: "<p>They call me the bug slayer, but I see myself as a tech magician ✨, bridging the gap between ideas and impact with code. My diverse skillset lets me speak the language of both clients and machines, crafting solutions that boost productivity, save resources, and tackle even the toughest tech challenges with a smile. I'm Nisarg Shah, and I'm here to build a future that's smarter, greener, and more efficient, one line of code at a time.</p>"
+# resume_header_intro: "<p>I am a passionate computer science graduate student at Indiana University Bloomington, skilled in C/C++, Java, Python, and various frameworks. As a Junior Software Developer Intern at Capri Technosys, I excelled in ML-Ops, resolving critical bugs, and enhancing system stability by 40%. With a knack for impactful projects, I've developed a dynamic web app for project management and a website for an NGO, reducing food wastage by 30%. As a National Winner in the IBM Hack Challenge 2021, I led a team to achieve a 20% increase in crop yield. Explore my resume to discover my commitment to innovation and technology.</p>"
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_skills:          true
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_recognition:     false
+resume_section_links:           false
+resume_section_associations:    false
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/nisarg0606"
+  resume_twitter_url:           "http://twitter.com/nisarg_001"
+  #resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/nisarg0606/"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_website_url:           "http://nisargshah.co"
+  #resume_medium_url:            "https://medium.com/@jglovier"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
