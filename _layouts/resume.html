@@ -64,28 +64,35 @@
           <div style="float: right;">{{education.year}}</div>
         </h4>
 
-        {% if education.courses}
-        <h5 class="resume-item-details" itemprop="description">Relevant Cousework</h5>
+        <!-- Courses -->
+        {% if education.courses %}
+        <!-- Display Relevant Coursework -->
+        <h4 class="resume-item-details" style="margin-top: 10px;">Relevant Coursework:</h4>
         <ul class="resume-item-list">
           {% for semester in education.courses %}
-          <li>{{ semester.semester }}:
+          <li>
+            {{ semester.semester }}
             <ul>
               {% for subject in semester.subjects %}
-              <li>{{ subject.subject }}</li>
+              <li>{{ subject }}</li>
               {% endfor %}
             </ul>
           </li>
           {% endfor %}
         </ul>
-        {%elif education.relevant_courses %}
-        <h5 class="resume-item-details" itemprop="description">Relevant Cousework</h5>
+        {% elsif education.relevant_courses %}
+        <!-- Display Relevant Courses -->
+        <h4 class="resume-item-details" style="margin-top: 10px;">Relevant Coursework:</h4>
         <ul class="resume-item-list">
           {% for course in education.relevant_courses %}
           <li>{{ course }}</li>
           {% endfor %}
         </ul>
         {% endif %}
-        <h5 class="resume-item-details" itemprop="description">Awards</h5>
+        <!-- End Courses -->
+
+        <!-- Display Awards -->
+        <h5 class="resume-item-details" itemprop="description">Awards and Activities</h5>
         <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
         <p class="resume-item-copy" itemprop="description">
         <ul class="resume-item-list">
@@ -93,7 +100,7 @@
           <li>{{ award.award }}</li>
           {% endfor %}
         </ul>
-
+        
 
         <p class="resume-item-copy">{{ education.summary }}</p>
       </div>
