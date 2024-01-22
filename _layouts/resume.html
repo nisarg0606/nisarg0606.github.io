@@ -92,6 +92,7 @@
         <!-- End Courses -->
 
         <!-- Display Awards -->
+        {% if education.awards %}
         <h5 class="resume-item-details" itemprop="description">Awards and Activities</h5>
         <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
         <p class="resume-item-copy" itemprop="description">
@@ -100,7 +101,8 @@
           <li>{{ award.award }}</li>
           {% endfor %}
         </ul>
-        
+        </p>
+        {% endif %}
 
         <p class="resume-item-copy">{{ education.summary }}</p>
       </div>
