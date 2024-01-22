@@ -122,7 +122,9 @@
       {% for job in site.data.experience %}
       <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
         <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+        {% if job.department %}
         <h4 class="resume-item-department" itemprop="name" style="margin-top: -2rem;">{{ job.department }}</h4>
+        {% endif %}
         <h4 class="resume-item-details" itemprop="description">{{ job.position }} <div style="float: right;">{{
             job.duration }}</div>
         </h4>
