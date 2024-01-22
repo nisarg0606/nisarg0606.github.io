@@ -63,6 +63,29 @@
           <!-- &bull; {{ education.year }} -->
           <div style="float: right;">{{education.year}}</div>
         </h4>
+
+        {% if education.courses}
+        <h5 class="resume-item-details" itemprop="description">Relevant Cousework</h5>
+        <ul class="resume-item-list">
+          {% for semester in education.courses %}
+          <li>{{ semester.semester }}:
+            <ul>
+              {% for subject in semester.subjects %}
+              <li>{{ subject.subject }}</li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endfor %}
+        </ul>
+        {%elif education.relevant_courses %}
+        <h5 class="resume-item-details" itemprop="description">Relevant Cousework</h5>
+        <ul class="resume-item-list">
+          {% for course in education.relevant_courses %}
+          <li>{{ course }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        <h5 class="resume-item-details" itemprop="description">Awards</h5>
         <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
         <p class="resume-item-copy" itemprop="description">
         <ul class="resume-item-list">
@@ -135,11 +158,11 @@
         Technical Skills
       </h3>
       {% for skill in site.data.technical_skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details" style="margin-bottom: -.5em;">{{ skill.skill }}: </h4>
-          <p class="resume-item-copy" style="margin-bottom: -1em;">{{ skill.description }}</p>
-        </div>
-        {% endfor %}
+      <div class="resume-item">
+        <h4 class="resume-item-details" style="margin-bottom: -.5em;">{{ skill.skill }}: </h4>
+        <p class="resume-item-copy" style="margin-bottom: -1em;">{{ skill.description }}</p>
+      </div>
+      {% endfor %}
       <h3 class="resume-item" style="margin-bottom: -.2rem; margin-top: 1rem;">
         Soft Skills
       </h3>
