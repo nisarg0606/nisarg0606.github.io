@@ -63,6 +63,28 @@
           <!-- &bull; {{ education.year }} -->
           <div style="float: right;">{{education.year}}</div>
         </h4>
+        {% if education.courses %}
+        <h4 class="resume-item-details" itemprop="description">Courses</h4>
+        <ul class="resume-item-list">
+          {% for semester in education.courses %}
+          <li>{{ semester.semester }}:
+            <ul>
+              {% for course in semester.subjects %}
+              <li>{{ course.subject }}</li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif education.relevant_courses %}
+        <h4 class="resume-item-details" itemprop="description">Relevant Courses</h4>
+        <ul class="resume-item-list">
+          {% for course in education.relevant_courses %}
+          <li>{{ course }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
         <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
         <p class="resume-item-copy" itemprop="description">
         <ul class="resume-item-list">

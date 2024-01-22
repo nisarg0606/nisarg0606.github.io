@@ -3,6 +3,17 @@
   uni: Indiana University, Bloomington
   year: 2023 &mdash; present 
   GPA: 3.0/4.0
+  courses:
+    - semester: Spring'24
+      subjects:
+        - CSCI - P 556 Applied Machine Learning
+        - CSCI - P 565 Software Engineering - I
+        - ENGR - E 516 Engineering Cloud Computing
+    - semester: Fall'23
+      subjects:
+        - CSCI - B 505 Applied Algorithms
+        - CSCI - B 551 Elements of Artificial Intelligence
+        - STAT - S 520 Introduction to Statistics
   # awards:
   #   - award: Summa Cumme Laude graduate
   summary: 
@@ -11,7 +22,20 @@
   uni: Kadi Sarva Vishwavidyalaya, Gandhinagar
   year: 2019 &mdash; 2023
   GPA: 8.23/10.0
+  relevant_courses:
+    - C
+    - Object Oriented Programming with C++
+    - Java
+    - Python
+    - Data Structures and Algorithms
+    - Database Management System
+    - Operating System
+    - Computer Networks
+    - Software Engineering
+    - Web Technologies
+    - Machine Learning
+
   awards:
     - award: IBM Hack Challenge Winner 2021
     - award: Postman Student Expert 2022
-  summary: Particiated in various hackathons and won IBM Hack Challenge 2021. Also, I am a Postman Student Expert 2022. Created various projects and my one of the project helped professors and students to manage their projects and tasks. Also, I have created a website for an NGO which helped them to reduce food wastage by 30%.
+  summary: Particiated in various hackathons and won IBM Hack Challenge 2021. I am a Postman Student Expert 2022. Created various projects and my one of the project helped professors and students to manage their projects and tasks. Also, I have created a website for an NGO which helped them to reduce food wastage by 30%.
