@@ -41,11 +41,11 @@
 
       {% if site.resume_looking_for_work == 'yes' %}
       <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
-      <!-- <a href="{{ site.resume_resume_download_link }}" class="contact-button" target="_blank">Download my resume</a> -->
-      <button class="btn btn-primary no-print" type="button"
+      <a href="{{ site.resume_resume_download_link }}" class="contact-button no-print" target="_blank">Download my resume</a>
+      <!-- <button class="btn btn-primary no-print" type="button"
         onclick="window.location.href='{{ site.resume_resume_download_link }}'">
         Download my resume
-      </button>
+      </button> -->
       {% elsif site.resume_looking_for_work == 'no' %}
       <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
       {% else %}
