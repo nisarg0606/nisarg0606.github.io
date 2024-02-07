@@ -16,7 +16,7 @@ resume_title:                   "Problem solver with a purpose✨🚀"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "nisargshahusa@gmail.com"
-resume_resume_download_link:    "_assets/resume/Nisarg_Shah_Resume_Feb_2024.pdf"
+resume_resume_download_link:    "/Nisarg_Shah_Resume_Feb_2024.pdf"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "930-333-2954"
