@@ -4,7 +4,7 @@
 - project: Advance Project Management
   role: Project Manager and Backend Developer
   duration: Jan, 2023 &mdash; March, 2023
-  # url: "#"
+  url: "https://github.com/nisarg0606/AdvanceProjectManagementSystem"
   description: >-
     Technologies: TypeScript, HTML/CSS, Node.js, Git, Unix Shell, VS Code
     <ul class="resume-item-list">
@@ -32,7 +32,7 @@
 - project: AgriOracle
   role: Backend Developer & Presentator
   duration: June, 2021 &mdash; August, 2021
-  # url: "#"
+  url: "https://github.com/smartinternz02/SBSPS-Challenge-5238-AI-Assisted-Farming-for-Crop-Recommendation-Farm-Yield-Prediction-Application"
   description: >-
     Technologies: Python, IBM Watson Studio and Chat-bot
     <ul class="resume-item-list">
